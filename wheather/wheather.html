@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mosham vibhag</title>
+    <link rel="stylesheet" href="wheather.css">
+</head>
+<body onload="getData()">
+    <div class="box">
+      <input type="text" onchange="getData()" id="search" value="Ranchi">
+      <div>
+        <h1 id="temp">14<sup>0</sup></h1>
+            <p class="celcius">Celcius</p>
+            <p class="data">Wind speed :-<span id="ws">20</span></p>
+                <p class="data">humidity :-<span id="hmdty">20</span></p>
+               
+      </div>
+      <div class="logo1">
+        <img class="logo" src="wheather logo.png" alt="">
+      </div>
+    </div>
+    
+    <script src="wheather.js"></script>
+</body>
+</html>
